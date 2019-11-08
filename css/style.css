@@ -1,0 +1,388 @@
+body {
+    max-width: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: white;
+    font-size:11pt;
+    
+}
+
+
+img {
+    max-width:100%;
+    width:100%;
+    
+}
+
+a {
+     text-decoration:none;
+}
+
+a:hover {
+     text-decoration:none;
+}
+
+
+   
+
+/* HEADER TYPOGRAPHY */
+
+
+
+
+.headermain {
+    max-width:100%;
+    width:100%;
+}
+
+.imghead {
+    float:right;
+    width:66%;
+    height:auto;
+    max-width:100%;
+    
+}
+
+.image_title {
+    font-size:60pt;
+    float:left;
+    width:30%;
+ top: 20%;
+    left: 3%;
+    position: absolute;
+    z-index: 1;
+    font-weight:500;
+    text-transform:uppercase;
+       color:#7FCDCD;
+    
+}
+
+.smallblab {
+    font-family: 'Kanit', sans-serif;
+    width:30%;
+    font-size:10pt;
+     top: 57%;
+    left: 3%;
+    position: absolute;
+}
+
+
+
+
+
+/* NAVIGATION */
+
+.navbar-default {
+     font-family: 'Work Sans', sans-serif;
+    font-size:18pt;
+    height:140px;
+    text-transform: uppercase;
+  background-color: #FBFEF9;
+    padding-bottom:5%;
+  border: none;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #000004;
+}
+.navbar-default .navbar-nav>li>a:hover {
+background-color:rgb(136 176 75);
+    color: #fff;
+}
+
+#specialbutton {
+   border: 1px solid rgb(136 176 75);
+   
+}
+
+.navbar-brand {
+  height: 100%;
+    float:left;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand > img {
+    max-width:100%;
+    float:left;
+ width:100px;
+    height:100px;
+  margin-right: 5px;
+    padding-bottom:5px;
+ 
+}
+
+
+
+
+.container {
+    padding:2%;
+}
+
+/* THE BODY OF THE FRONT PAGE */
+
+.maincontainer {
+    max-width:100%;
+    padding:3%;
+    background-color:rgba(127,205,205,.3);
+}
+
+.maincontainer .article {
+    padding:3%;
+       width:40%;
+       float:left;
+    font-size:15pt;
+}
+
+
+
+
+
+.story {
+    max-width:100%;
+    width:25%;
+    float:right;
+   font-size:15pt;
+     font-variant: small-caps;
+    
+    
+}
+
+
+.story a {
+    color:#000;
+    border-bottom:rgb(136,176,75) 1px solid;
+     
+}
+
+.story a:hover {
+color:#FA7268;
+    font-weight:600;
+     
+}
+
+/* ALL THE TITLES ON THE WEBSITE ARE THIS FONT AND SIZE */
+
+.Ctitles {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18pt;
+     font-variant: small-caps;
+   
+}
+
+/* THE LINE UNDER TITLES */
+
+.Clines {
+    width:10%;
+    max-width:100%;
+    background-color:rgb(136,176,75);
+    height:2px;
+  
+}
+
+    
+
+.article2 {
+     padding:3%;
+    width:40%;
+    font-size:15pt;
+}
+
+
+/* SMALL SVG ICONS */
+
+.rightimgs {
+    max-width:100%;
+ width:33%;
+    padding:7%;
+    float:left;
+
+}
+
+
+
+.rightimgs img {
+   top:40;
+    max-width:100%;
+    padding:5%;
+    width:200px;
+    
+    
+}
+
+.descprights {
+     font-family: 'Work Sans', sans-serif;
+    font-size:14pt;
+    padding:5px;
+    align-content: top;
+    
+  
+}
+
+/* SPONSORS */
+
+.sponsors {
+    max-width:100%;
+   background:#88B04B;
+    float:left;
+    width:100%;
+    display:inline-block;
+ padding:3%;
+}
+
+
+.sponsors img {
+    align-content:center;
+  width:250px;
+    padding:3%;
+}
+
+
+
+
+.spontitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18pt;
+     font-variant: small-caps;
+    color:white;
+   
+}
+
+
+
+
+
+
+
+
+/* CLEAR */
+
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+/* MEDIA QUERIES FOR OTHER DEVICES */
+
+
+@media only screen and (min-width: 300px) and (max-width: 790px) {
+    
+    .navbar-default {
+     font-family: 'Work Sans', sans-serif;
+    font-size:12pt;
+    height:70px;
+    text-transform: uppercase;
+  background-color: #0004;
+    padding-bottom:2%;
+  border: none;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FBFEF9;
+    background-color:#000004;
+}
+.navbar-default .navbar-nav>li>a:hover {
+background-color:rgb(136 176 75);
+}
+
+    
+    
+    
+    .imagetitle {
+    font-family: 'Kanit', sans-serif;
+    font-size:20pt;
+   top: 10%;
+  color:  #f88379;
+    left: 10%;
+    position: absolute;
+    background-color:rgba(0,0,0,.5);
+    color: #f88379;
+    padding:2%;
+}
+
+    .imgdescribe {
+  display:none;
+}
+    
+    .hovertype button  {
+    display:none;
+   
+    
+}
+    
+    
+    
+    /* THE BODY OF THE FRONT PAGE */
+
+.maincontainer .article  {
+    padding:3%;
+       width:100%;
+       float:none;
+    font-size:12pt;
+ 
+}
+    
+
+
+.story {
+    clear:both;
+    max-width:100%;
+    width:30%;
+    float:right;
+   font-size:13pt;
+     font-variant: small-caps;
+    
+    
+}
+    
+
+/* ALL THE TITLES ON THE WEBSITE ARE THIS FONT AND SIZE */
+
+.Ctitles {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14pt;
+     font-variant: small-caps;
+   
+}
+    
+
+    .article2 {
+        font-size:12pt;
+           width:100%;
+       float:none;
+        
+       
+    }
+
+/* SMALL SVG ICONS */
+
+.rightimgs {
+    max-width:100%;
+    width:100%;
+    float:none;
+
+}
+    
+.rightimgs img {
+   vertical-align: bottom;
+    max-width:100%;
+
+
+    
+}
+
+  
+}
+
+    
+
+
+    
+
+
+
